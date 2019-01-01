@@ -1,0 +1,96 @@
+body {
+	font-family: arial;
+	background: url("https://images6.alphacoders.com/481/481285.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+h1{
+	margin:10px auto 10px auto;
+	text-align: center;
+	color:white; 
+	text-shadow: 2px 2px #8B0000;
+}
+#MainTitleHR{
+	border-top: 5px solid #F0E68C;
+	margin:0 25%;
+}
+
+#Block{
+	width:100%;
+}
+#map {
+	margin:5px 0px 0px 0px;
+	height:525px;
+	width: 65%;
+	float:right;
+}
+
+.inp{
+	width:20%;
+	weight:20%;
+}
+.lon,.lat{
+	padding-right:20px;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+.button{
+	margin: 20px 0 0 20px;
+}
+.radioMark{
+	padding-left: 10px;
+	padding-top: 20px;
+	color:white;
+	text-shadow: 2px 2px #000000;
+}
+.Layers{
+	width:500px;
+	padding-left: 10px;
+	padding-right:20px;
+	padding-top: 20px;
+	color:white;
+	font-size: 17px;
+	text-shadow: 2px 2px #000000;
+	font-weight: 700;
+}
+.L1L2{
+	display: inline-block;
+	
+}
+.L3L4{
+	display: inline-block;
+	padding-left: 50px;
+}
+.layer2,.layer4{
+	padding-top:10px;
+}
+#hrLayer{
+	width:120px;
+	border-top: 5px solid #F0E68C;
+	margin: 0 10px 0 10px;
+}
+#hrCor{
+	width:140px;
+	border-top: 5px solid #F0E68C;
+	margin: 0 0 0 10px;
+}
+h3{
+	padding-left: 15px;
+	color: white;
+	text-shadow: 2px 2px #8B0000;
+}
+#hrBuilt
+{
+	width:120px;
+	border-top: 5px solid #F0E68C;
+	margin: 0 0 0 10px;
+}
+p{
+	padding-left:10px;
+	color:white;
+	font-weight: 600;
+	text-shadow: 2px 2px #000000;
+}

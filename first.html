@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Second Exercise</title>
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+	integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+	crossorigin=""/>
+	<link rel="stylesheet" type="text/css" href="first.css">
+</head>
+<body>
+
+	<h1>GeoInformation Exercise</h1>
+	<hr id="MainTitleHR">
+	<div id="Block">
+		<div id="map"></div>
+		<div class = "inp">
+			<h3>Coordinates</h3>
+			<hr id="hrCor">	
+			<div class="lat"><input type="text" id = "lat" name="Latitude" placeholder="Latitude"></div>
+			<div class="lon"><input type="text" id = "lon" name="Longitude" placeholder="Longitude"></div>	
+			<div class="button"><button id = "button" type="button">Enter</button></div>
+			<div class="radioMark"><input id="radioMark" type="radio" name="mark">PlaceMark</div>
+			<h3>Layers </h3>
+			<hr id="hrLayer">
+			<div class='Layers'>
+				<div class='L1L2'>
+					<div class="layer1"><input id="layer1" type="radio" name="layer1">OutDoor Layer</div>	
+					<div class="layer2"><input id="layer2" type="radio" name="layer2">Neighbourhood Layer</div>	
+				</div>
+				<div class='L3L4'>
+					<div class="layer3"><input id="layer3" type="radio" name="layer3">OpenCycle Layer</div>
+					<div class="layer4"><input id="layer4" type="radio" name="layer4">Transport Dark Layer</div>	
+				</div>
+			</div>
+			<h3>Built By</h3>
+			<hr id="hrBuilt">
+			<p>Guy Hassan - ID : 307845032</p>
+			<p>Yinon Hirari - ID : 203409024</p>
+			<p>Yahav Mizrahi - ID : 305759185</p>
+			
+		</div>
+	</div>
+
+	<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
+	integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
+	crossorigin=""></script>
+	<script type="text/javascript", src="first.js"></script>
+</body>
+</html>
