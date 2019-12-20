@@ -5,7 +5,7 @@ lay1 = document.getElementById("layer1");
 lay2 = document.getElementById("layer2");
 lay3 = document.getElementById("layer3");
 lay4 = document.getElementById("layer4");
-
+/*pass - lolGuy*/
 var map = L.map('map'),
 firstConection = true,
 checkMark = false,
