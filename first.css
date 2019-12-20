@@ -1,4 +1,4 @@
-/*blabla*/
+
 body {
 	font-family: arial;
 	background: url("https://images6.alphacoders.com/481/481285.jpg") no-repeat center center fixed; 
@@ -6,7 +6,7 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-
+/*check pass Code*/
 }
 h1{
 	margin:10px auto 10px auto;
